@@ -1,0 +1,199 @@
+<resources>
+    <string name="app_name">EduNexa</string>
+    <string name="selector">Who are you ? 🤔</string>
+    <string name="rur">RUR</string>
+    <string name="jd">JD</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="welcome_rur">Welcome RUR</string>
+    <string name="welcome_text"><![CDATA[The more you explore & learn, the more you gain & succed.]]></string>
+    <string name="login">Login</string>
+    <string name="user_id">User Id</string>
+    <string name="password">Password</string>
+    <string name="welcome_jd">Welcome JD</string>
+    <string name="division">Choose your Division..? 🫣</string>
+    <string name="kalburagi">Kalburagi</string>
+    <string name="mangalore">Mangalore</string>
+    <string name="mysore">Mysore</string>
+    <string name="bengaluru">Bengaluru</string>
+    <string name="shivamoga">Shivamoga</string>
+    <string name="dharwad">Dharwad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="principal">Principal</string>
+    <string name="welcome_principal">Welcome Principal</string>
+    <string name="new_user">New User</string>
+    <string name="register">Register..?</string>
+    <string name="already_registered">Already Registered..?</string>
+    <string name="register_clean">Register</string>
+    <string name="login_link">Login...</string>
+    <string name="e_mail">E-mail</string>
+    <string name="select_your_college">Select your College</string>
+    <string name="guest_teacher">Guest Teacher</string>
+    <string name="permanent_teacher">Permanent Teacher</string>
+    <string name="welcome_guest_teacher">Welcome Guest Teacher</string>
+    <string name="welcome_non_teaching_teacher">Welcome Non Teaching Teacher</string>
+    <string name="welcome_buddy">Welcome Buddy..! 😎</string>
+    <string name="name">Name</string>
+    <string name="welcome_permanent_teacher">Welcome Permanent Teacher</string>
+    <string name="lorem">Lorem ipsum dolor sit amet,
+        dfbmmcv ld gjlkdn;sefa\'ledsbfdknjkgkblva
+        sdgnl;bsadwlkvsjbkgnflv;adwdvskgnjkfxld;akvfnjgkdlk;
+        sowpidilkjfbfkxvdnlsljskhjdjsheawoigrjkdnsld;dwoefogrhukfbjzlndQEJIOQEFHGSUKBJDVNLS
+        KWKESHJBJNKLqksodpoqghsbjksnLA;kdwpifoesuhkjxnkzksm;DWPOQIGKBJX;SDAOFEISJXDKZCSDWPKFOPEJIGHRJX,NCMLHJS
+        btkjrlewkfrkdkjnkskefal;klrdbnjkkelm;kforjtlinksemfaawrlgitjnldkse;ogrjilf
+        rhbsjdnkaldwefgrkhujkaldkefljgrkhdnkskeal;fowjigrhkdjnksklefowjigrkdjnkse;fwnj
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</string>
+    <string name="departments">Departments</string>
+    <string name="bca">Bachelors of Computer Application</string>
+    <string name="add_message">Add Message</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_video">Add Video</string>
+    <string name="add_pdf">Add PDF</string>
+    <string name="publish">Publish</string>
+    <string name="delete">DELETE</string>
+    <string name="messages">Messages</string>
+    <string name="slno">slno</string>
+    <string name="send_to">send to</string>
+    <string name="pdf_s">PDF\'s</string>
+    <string name="videos">Videos</string>
+    <string name="images">Images</string>
+    <string name="n_bharath">N Bharath</string>
+    <string name="college">College</string>
+    <string name="govt_degree_college">Govt. Degree College</string>
+    <string name="approve">Approve</string>
+    <string name="decline">Decline</string>
+    <string name="requests">Requests</string>
+    <string name="non_teaching">Non - Teaching</string>
+
+
+    <string-array name="clg_lst">
+        <item>Govt. First Grade Degree College, Raichur</item>
+        <item>Adarsh Arts commerce Degree College, Yadgir</item>
+        <item>AMES Science Degree College</item>
+        <item>Anand Degree College, Raichur</item>
+        <item>Arundhati Degree College, Shorapur</item>
+        <item>Balaji Degree College, Yadgir</item>
+        <item>Bapugouda Degree College, Kembhavi</item>
+        <item>Basava Arts Degree College, Deodurg</item>
+        <item>Basava Degree College, Chamanal</item>
+        <item>Basavarajappa Appa Degree College of Commerce, Hasanapur</item>
+        <item>Billav Arts Degree College, Shahapur</item>
+        <item>Bright Beginning Degree College, Raichur</item>
+        <item>BTS Degree College, Raichur</item>
+        <item>CES Basaveshwara Arts, Commerce Degree College, Yadgir</item>
+        <item>Cess Degree College, Yadgir</item>
+        <item>Chaitanya Degree College, Gurumatkal</item>
+        <item>DEVANAMPRIYA ASHOK GOVT. FIRST GRADE COLLEGE,Maski</item>
+        <item>DON BOSCO DEGREE COLLEGE YADAGIRI</item>
+        <item>Excellent Degree College, Sindhanoor</item>
+        <item>Federal Degree College Yaramas Camp, Raichur</item>
+        <item>Gangabai S Hiremath Degree College, Shahapur</item>
+        <item>Gangotri Degree College, Shorapur</item>
+        <item>Gnana Bharathi Artscommerce Degree College, Raichur</item>
+        <item>Governament model degree college Shahapur</item>
+        <item>Govind Karjol Degree College Lingasugur</item>
+        <item>Govt First Grade College, Sirwar</item>
+        <item>Govt First Grade College, Turvihal</item>
+        <item>Govt. F. G. College, Kembhavi</item>
+        <item>Govt. F. G. Degree College, Gurumitkal</item>
+        <item>Govt. F. G. Degree College, Shorapur</item>
+        <item>Govt. First Grade College, Hunasagi</item>
+        <item>Govt. First Grade College, Shahapur E</item>
+        <item>Govt. First Grade Degree College, Deodurga</item>
+        <item>Govt. First Grade Degree College, Lingasugur</item>
+        <item>Govt. First Grade Degree College, Manvi</item>
+        <item>Govt. First Grade Degree College, Mudgal</item>
+        <item>Govt. First Grade Degree College, Yadgir</item>
+        <item>Horizon Degree College, Raichur</item>
+        <item>Huligappa Degree College, Yadgiri</item>
+        <item>Ideal Degree College, Sindhanoor</item>
+        <item>Imperial Degree College, Gurumithkal</item>
+        <item>Infant Jesus Artscommerce Degree College, Raichur</item>
+        <item>Jawahar Degree College, Yadgir</item>
+        <item>Kalmath Poojya Sri Siddaramma Shivacharya Degree College, Manvi</item>
+        <item>Kannadambe Degree College, Shahapur</item>
+        <item>Karnataka Arts, commerce Degree College, Deodurga</item>
+        <item>Kollur Mallappa Degree College, Yadgir</item>
+        <item>Krishna Devaraya Degree College, Gurmitakal</item>
+        <item>M M Grampalli Degree College, Gurumatkal</item>
+        <item>Maharaj Arts commerce Degree Collage, Yadgiri</item>
+        <item>Mahatma Gandhi Degree College, Yadgir</item>
+        <item>Mallika Degree College, Yadgir</item>
+        <item>Matoshree Nimbemma Degree College, Narayanpur</item>
+        <item>Matoshri Mallamma Degree College, Yadgir</item>
+        <item>Mourya Commerce, Arts Degree College, Arab Mohalla, Raichur</item>
+        <item>Nalanda Degree College, Yadgir</item>
+        <item>National Commerce College, Sindhanur</item>
+        <item>Navayuga Degree College, Dady Colony, Raichur</item>
+        <item>Navayuga Gabburu Degree College, Gabburu</item>
+        <item>Nivedita Degree College, Yadgir</item>
+        <item>Noble Degree College , Kustagi Road, Sindhanur</item>
+        <item>Orient Degree College, Yadgir</item>
+        <item>Oxford Degree College, Sindhanoor</item>
+        <item>Pavitra Degree College, Wadagera</item>
+        <item>Pragathi Degree College, Shahapur</item>
+        <item>Pragati Degree College, Yadgir</item>
+        <item>Prarthana Artscommerce Degree College, Shahapur</item>
+        <item>Presidency Artscommerce Degree College, Maski</item>
+        <item>Rachoti Veeranna Degree College, Yadgir</item>
+        <item>S. M. V Degree College, Pothnal</item>
+        <item>S. V. (Swamy Vivekananda) Arts First Grade College, Hunasigi</item>
+        <item>S.P , J.M.B College, Shahapur</item>
+        <item>Sai Spoorthi Degree College, Maski</item>
+        <item>Sajjalshree Arts Degree College, Nagaral, Lingasoogur</item>
+        <item>Sarvodaya Degree College, Manvi</item>
+        <item>Savitri Bai Phulle Degree College, Naikal</item>
+        <item>SC/ST Residential Government First Grade College Mudnal, Yadgir</item>
+        <item>Sevas Parvathamma Basanna Degree College, Raichur</item>
+        <item>Shivasharane Hemareddy Mallamma Arts College, Lingasoogur. Raichur</item>
+        <item>Shree Basavaraj Hiremath Diggi Degree College, Shorapur</item>
+        <item>Shree Neelakanth Arts First Grade College, Devapur</item>
+        <item>Shri Chanamallikarjuna Arts, Comm College, Devasugur</item>
+        <item>Shri Janaka Arts Degree College, Kodekal</item>
+        <item>Shri Jnana Bindu Degree College, Rangampet</item>
+        <item>Shri Jnana Ganga Degree College, Raichur</item>
+        <item>Shri Sangameshwar Arts, Bbm Degree College, Lingasoogur</item>
+        <item>Shri Sanjeev Arts And Commerce College, Lingasugur</item>
+        <item>Shri Shankar Trusts Arts Degree College, Sindhanoor</item>
+        <item>Shri Swamy Vivekananda Degree College, Konganahatti</item>
+        <item>Shri Umamaheshwari B.Sc. Degree College, Lingasoogur</item>
+        <item>Shri Veerashaiva Samaji (Hcmsk) College of Education, Raichur</item>
+        <item>Shri Venkateshwara Bbm College, Raichur</item>
+        <item>Shri Yamareddy Mundas Degree College, Yadagiri</item>
+        <item>Shri. Basaveshwar Degree College, Deodurga</item>
+        <item>Shri. Venkateshwar Degree College, Manavi</item>
+        <item>Siddalingappa B. Deshmukh College of BCA, Bbm, Shahapur</item>
+        <item>Siddarth Degree Colelge, Manvi</item>
+        <item>Smt. Mahantamma Lingagouda Bayyapur Arts College, Lingasoogur</item>
+        <item>Smt. R. Subhodramma Vitthoba Shetty Arts College, Manvi</item>
+        <item>Sri Amaregouda Patil Bayyapur Degree College Sirwar</item>
+        <item>Sri Balaji Arts Degree College, Saidapur</item>
+        <item>Sri Basaveshwara Degee College, Balaganur</item>
+        <item>Sri Basaweshwara Arts College, Sirwar</item>
+        <item>Sri Guru Digambar Siddharudha Degree Arts College, Shahapur</item>
+        <item>Sri Gurukula Ba, B.Com. Degree College,  Rangampet</item>
+        <item>Sri Jagadguru Tinthani Mouneshwara Degree College, Kakkera</item>
+        <item>Sri K Virupakshappa Degree College, Turvihal</item>
+        <item>Sri Kanakadasa Degree College, Sindhanur</item>
+        <item>Sri Neelkantha Degree College, Shorapur</item>
+        <item>Sri Pragnya Degree College, Raichur</item>
+        <item>Sri Virat Degree College, Yapaladinni</item>
+        <item>Sri. Guru Krupa Degree College, Deodurg</item>
+        <item>Srikrishnadevaraya Degree College, Sindhanoor</item>
+        <item>Sriraksha Degree College, Yadgiri</item>
+        <item>Ssrs Degree College, Yadgir</item>
+        <item>St. Thomas Degree College, Raichur</item>
+        <item>Sunrise Degree College, Raichur</item>
+        <item>Swami Vivekanand Degree Collge, Rangampet</item>
+        <item>Swmivivekananda Degree College, Devadurga</item>
+        <item>Synergy Institute of Management, Raichur</item>
+        <item>Vceb s Degree College, Lingasoogur</item>
+        <item>Vedanta Degree college Raichur</item>
+        <item>Vishwajyoti Degree Colege, Shahapur</item>
+        <item>Vivekananda BCA College, Racihur</item>
+        <item>Yashodha Degree College, Yadagiri</item>
+
+    </string-array>
+
+</resources>

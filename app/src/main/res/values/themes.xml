@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EduNexa" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="textview" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily"> @font/fontfamily </item>
+    </style>
+    
+    <style name="Theme.EduNexa" parent="Base.Theme.EduNexa" />
+</resources>

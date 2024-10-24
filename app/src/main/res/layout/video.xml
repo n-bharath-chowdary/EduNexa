@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/fontfamily"
+        android:textSize="27sp"
+        android:textStyle="bold|italic"
+        android:id="@+id/video_name"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/delete"
+        android:textSize="23sp"
+        android:scaleY="1.2"
+        android:scaleX="1.2"
+        android:textStyle="bold"
+        android:id="@+id/delete_btn"
+        android:textColor="@color/white"
+        android:background="@drawable/button_blob"/>
+
+</RelativeLayout>

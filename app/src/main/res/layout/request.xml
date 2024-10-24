@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_marginEnd="5dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/fontfamily"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/request_name"
+            android:layout_marginStart="3dp"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:text="@string/n_bharath"
+            android:textStyle="bold"
+            android:fontFamily="@font/fontfamily"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/top"
+        android:id="@+id/clg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/college"
+            android:layout_marginEnd="4dp"
+            android:textSize="15sp"
+            android:id="@+id/section"
+            android:fontFamily="@font/fontfamily"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/request_college"
+            android:layout_marginStart="3dp"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:text="@string/govt_degree_college"
+            android:textStyle="bold"
+            android:fontFamily="@font/fontfamily"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clg"
+        android:id="@+id/simple"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:textSize="15sp"
+            android:id="@+id/course"
+            android:fontFamily="@font/fontfamily"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/year"
+            android:layout_marginStart="3dp"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/fontfamily"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/simple">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/approve"
+            android:id="@+id/approve"
+            android:layout_marginEnd="15dp"
+            android:textSize="25sp"
+            android:textColor="#34A853"
+            android:fontFamily="@font/fontfamily"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/decline"
+            android:id="@+id/decline"
+            android:layout_marginStart="15dp"
+            android:textSize="25sp"
+            android:textColor="#DD2C00"
+            android:fontFamily="@font/fontfamily"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "773678650676",
+    "firebase_url": "https://edunexa1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "edunexa1",
+    "storage_bucket": "edunexa1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773678650676:android:cd7f6c5bede1b5fc1e4161",
+        "android_client_info": {
+          "package_name": "com.edunexa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2CAmyc4KDJbBeVnvjckfFJxgfUkSLx0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
