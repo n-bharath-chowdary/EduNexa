@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EduNexa"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".teacher.teacher_main"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.teacher_register"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.teacher_login"
+            android:exported="false" />
+        <activity
+            android:name=".Image_Viewer"
+            android:exported="false" />
+        <activity
+            android:name=".VideoViewer"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".pdfViewer"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".rur.sending.Add_Msg" -->
+        <!-- android:exported="false" -->
+        <!-- android:windowSoftInputMode="adjustPan"/> -->
+        <activity
+            android:name=".principal.addStaff"
+            android:exported="false" />
+        <activity
+            android:name=".principal.write_message"
+            android:exported="false" />
+        <activity
+            android:name=".principal.sending_selection"
+            android:exported="false" />
+        <activity
+            android:name=".student.student_login"
+            android:exported="false" />
+        <activity
+            android:name=".student.student_main"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.non.non_main"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.non.non_register"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.non.non_login"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.permanent.permanent_main"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.permanent.permanent_register"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.permanent.permanent_login"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.guest.guest_register"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.guest.guest_main"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.guest.Login_guest"
+            android:exported="false" />
+        <activity
+            android:name=".principal.principal_login"
+            android:exported="false" />
+        <activity
+            android:name=".principal.principal_register"
+            android:exported="false" />
+        <activity
+            android:name=".principal.princi_main"
+            android:exported="false" />
+        <activity
+            android:name=".student.Register_student"
+            android:exported="false" />
+        <activity
+            android:name=".teacher.teacher_selector"
+            android:exported="false" />
+        <activity
+            android:name=".rur.Login_rur"
+            android:exported="false" />
+        <activity
+            android:name=".selection.selector"
+            android:exported="false" />
+        <activity
+            android:name=".loader.Loader"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".rur.MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>

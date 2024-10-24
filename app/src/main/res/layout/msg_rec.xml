@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="13dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll"
+        android:gravity="start"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:id="@+id/msg_content"
+            android:text="@string/add_message"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/fontfamily"
+            android:textColor="@color/black"
+            android:textSize="22sp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/ll"
+        android:id="@+id/text">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/text_send_to_column"
+            android:text="@string/send_to"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fontfamily"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:layout_marginEnd="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/text_send_to"
+            android:text="@string/send_to"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/fontfamily"
+            android:gravity="center"
+            android:layout_marginStart="6dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
