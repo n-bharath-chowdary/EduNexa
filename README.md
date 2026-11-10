@@ -58,6 +58,17 @@ Universities often struggle with managing numerous unofficial WhatsApp groups fo
 
 ---
 
+## 🔥 Firebase setup
+
+The app uses Firebase (Storage, Auth and the database). The project's own `app/google-services.json` is not in the repository. To run the app:
+
+1. Create a Firebase project and add an Android app with the package name `com.edunexa`.
+2. Download its `google-services.json` and put it in `app/`. It is git-ignored, so it will not be committed.
+3. `app/google-services.json.example` shows the expected shape.
+4. In Google Cloud Console, restrict the Android API key to the package `com.edunexa` and your signing certificate, and keep your Storage and Database rules closed to signed-in users only.
+
+---
+
 ## 📢 Contribute
 
 Got ideas? Found a bug?
